@@ -1,0 +1,364 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SocialLogin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "socialData",
+        "printedName": "socialData",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "socialData",
+                "printedName": "SocialLogin.socialData",
+                "usr": "s:11SocialLogin10socialDataC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SocialLogin10socialDataCACycfc",
+            "mangledName": "$s11SocialLogin10socialDataCACycfc",
+            "moduleName": "SocialLogin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getLoginName",
+            "printedName": "getLoginName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoginType",
+                "printedName": "SocialLogin.LoginType",
+                "usr": "s:11SocialLogin0B4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SocialLogin10socialDataC03getB4NameAA0B4TypeOyF",
+            "mangledName": "$s11SocialLogin10socialDataC03getB4NameAA0B4TypeOyF",
+            "moduleName": "SocialLogin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11SocialLogin10socialDataC",
+        "mangledName": "$s11SocialLogin10socialDataC",
+        "moduleName": "SocialLogin",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoginType",
+        "printedName": "LoginType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Facebook",
+            "printedName": "Facebook",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SocialLogin.LoginType.Type) -> SocialLogin.LoginType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginType",
+                    "printedName": "SocialLogin.LoginType",
+                    "usr": "s:11SocialLogin0B4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SocialLogin.LoginType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginType",
+                        "printedName": "SocialLogin.LoginType",
+                        "usr": "s:11SocialLogin0B4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SocialLogin0B4TypeO8FacebookyA2CmF",
+            "mangledName": "$s11SocialLogin0B4TypeO8FacebookyA2CmF",
+            "moduleName": "SocialLogin"
+          },
+          {
+            "kind": "Var",
+            "name": "Google",
+            "printedName": "Google",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SocialLogin.LoginType.Type) -> SocialLogin.LoginType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginType",
+                    "printedName": "SocialLogin.LoginType",
+                    "usr": "s:11SocialLogin0B4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SocialLogin.LoginType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginType",
+                        "printedName": "SocialLogin.LoginType",
+                        "usr": "s:11SocialLogin0B4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SocialLogin0B4TypeO6GoogleyA2CmF",
+            "mangledName": "$s11SocialLogin0B4TypeO6GoogleyA2CmF",
+            "moduleName": "SocialLogin"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoginType",
+                "printedName": "SocialLogin.LoginType",
+                "usr": "s:11SocialLogin0B4TypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoginType",
+                "printedName": "SocialLogin.LoginType",
+                "usr": "s:11SocialLogin0B4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SocialLogin0B4TypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11SocialLogin0B4TypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "SocialLogin",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SocialLogin0B4TypeO9hashValueSivp",
+            "mangledName": "$s11SocialLogin0B4TypeO9hashValueSivp",
+            "moduleName": "SocialLogin",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SocialLogin0B4TypeO9hashValueSivg",
+                "mangledName": "$s11SocialLogin0B4TypeO9hashValueSivg",
+                "moduleName": "SocialLogin",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SocialLogin0B4TypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11SocialLogin0B4TypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "SocialLogin",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SocialLogin.LoginType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginType",
+                    "printedName": "SocialLogin.LoginType",
+                    "usr": "s:11SocialLogin0B4TypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SocialLogin0B4TypeO8allCasesSayACGvpZ",
+            "mangledName": "$s11SocialLogin0B4TypeO8allCasesSayACGvpZ",
+            "moduleName": "SocialLogin",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SocialLogin.LoginType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginType",
+                        "printedName": "SocialLogin.LoginType",
+                        "usr": "s:11SocialLogin0B4TypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SocialLogin0B4TypeO8allCasesSayACGvgZ",
+                "mangledName": "$s11SocialLogin0B4TypeO8allCasesSayACGvgZ",
+                "moduleName": "SocialLogin",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11SocialLogin0B4TypeO",
+        "mangledName": "$s11SocialLogin0B4TypeO",
+        "moduleName": "SocialLogin",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SocialLogin.LoginType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginType",
+                        "printedName": "SocialLogin.LoginType",
+                        "usr": "s:11SocialLogin0B4TypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
