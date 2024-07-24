@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11C7F6C32A8B685300E4F7A4 /* SocialLogin.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C7F6C22A8B685300E4F7A4 /* SocialLogin.xcframework */; };
+		11C7F6C42A8B685300E4F7A4 /* SocialLogin.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11C7F6C22A8B685300E4F7A4 /* SocialLogin.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		11F3C1612A6C0A7C007B401D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3C1602A6C0A7C007B401D /* AppDelegate.swift */; };
 		11F3C1632A6C0A7C007B401D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3C1622A6C0A7C007B401D /* SceneDelegate.swift */; };
 		11F3C1652A6C0A7C007B401D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3C1642A6C0A7C007B401D /* ViewController.swift */; };
@@ -15,7 +17,22 @@
 		11F3C16D2A6C0A7C007B401D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F3C16B2A6C0A7C007B401D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		118A42B72A6C0DF0005508A8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				11C7F6C42A8B685300E4F7A4 /* SocialLogin.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		11C7F6C22A8B685300E4F7A4 /* SocialLogin.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SocialLogin.xcframework; sourceTree = "<group>"; };
 		11F3C15D2A6C0A7C007B401D /* SocialLoginFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialLoginFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F3C1602A6C0A7C007B401D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11F3C1622A6C0A7C007B401D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C7F6C32A8B685300E4F7A4 /* SocialLogin.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 			children = (
 				11F3C15F2A6C0A7C007B401D /* SocialLoginFrameworkDemo */,
 				11F3C15E2A6C0A7C007B401D /* Products */,
+				11F3C1742A6C0CAA007B401D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +86,14 @@
 			path = SocialLoginFrameworkDemo;
 			sourceTree = "<group>";
 		};
+		11F3C1742A6C0CAA007B401D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11C7F6C22A8B685300E4F7A4 /* SocialLogin.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +104,7 @@
 				11F3C1592A6C0A7C007B401D /* Sources */,
 				11F3C15A2A6C0A7C007B401D /* Frameworks */,
 				11F3C15B2A6C0A7C007B401D /* Resources */,
+				118A42B72A6C0DF0005508A8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,6 +316,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GT8WL63BK3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SocialLoginFrameworkDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +348,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GT8WL63BK3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SocialLoginFrameworkDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
